@@ -25,6 +25,7 @@ LOS CM 14.1:
 #ignoreClientHostname is used to keep persistence by ignoring the client hostname
 # Optimizaciones CaineOS Go
 build_properties:
+export TARGET_HERMES_LOW_RAM=true
   ro.config.low_ram: "true"
   ro.product.model: "CaineOS_Go"
   ro.config.max_starting_bg: "2"
